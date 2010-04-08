@@ -1,0 +1,6 @@
+Simple C UDP logging server
+
+Configure LISTEN_PORT and LOG_FILE_NAME in udps.c
+
+make
+./test.py
