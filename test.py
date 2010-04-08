@@ -7,7 +7,7 @@ import subprocess
 SERVER = "localhost"
 PORT = 27072
 
-# start udps udps server
+# start udps UDP server
 p = subprocess.Popen(["./udps"])
 
 print "running udps pid: %s ...\n" % p.pid
